@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vijayakumari G - Personal Webpage</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f8f9fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1a73e8;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 0;
+    }
+
+    section {
+      background: #fff;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #1a73e8;
+      margin-bottom: 15px;
+      font-size: 24px;
+      border-left: 4px solid #1a73e8;
+      padding-left: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1a73e8;
+      color: #fff;
+      margin-top: 30px;
+    }
+
+    /* Responsive */
+    @media(max-width: 768px){
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mrs. G. Vijayakumari, M.Tech., (Ph.D)</h1>
+    <nav>
+      <a href="#intro">Introduction</a>
+      <a href="#experience">Work Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="intro">
+      <h2>Introduction</h2>
+      <p>Experienced and goal‑oriented faculty with over 14 years of teaching excellence, committed to enhancing student growth and academic success. Enthusiastic about lifelong learning, creative problem‑solving, and team-driven leadership to advance institutional goals and support collective progress.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Work Experience</h2>
+      <ul>
+        <li><strong>Assistant Professor (Senior Grade)</strong>, Kangeyam Institute of Technology (Builders Engineering College), Kangeyam — 2013 to Present</li>
+        <li><strong>Assistant Professor</strong>, Chettinad College of Engineering & Technology, Karur — 2011 to 2013</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python (Basic)</li>
+        <li>Windows & Linux OS</li>
+        <li>PCB Layout Designing</li>
+        <li>Nanomaterial Characterization (AFM, SEM, FTIR)</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Ph.D (Pursuing), Anna University, Chennai</li>
+        <li>M.Tech in Nanoscience & Technology, MEPCO Schlenk Engineering College (2011)</li>
+        <li>B.E in Electronics & Communication Engineering, Avinashilingam University (2009)</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <p><strong>Mobile:</strong> 9487667893</p>
+      <p><strong>Email:</strong> viji.ece05@gmail.com</p>
+      <p><strong>Address:</strong> 42, Achiyan Thottam, Kattu Salai, P. Velur, Namakkal – 638182</p>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 Vijayakumari G — Personal Webpage
+  </footer>
+</body>
+</html>
